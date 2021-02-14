@@ -1,14 +1,40 @@
+@import "../../assets/scss/variables";
 
 .header {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-color: #e1e1e1;
     display: flex;
     align-items: center;
     padding: 1rem;
+    z-index: -2;
 
-    // __content {
-        
-    // }
+    &__image {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    &__title {
+        font-weight: bolder;
+        font-size: 2.5rem;
+        background: linear-gradient(135deg, $red, $orange);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    &__subtitle {
+        font-weight: 300;
+        color: darken($color: $orange-grey, $amount: 30%);
+    }
+
+    svg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 30vw;
+        z-index: -1;
+    }
 }

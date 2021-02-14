@@ -14,6 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.0.0-beta2",
     "gatsby": "^2.26.1",
     "gatsby-plugin-postcss": "^3.7.0",
