@@ -1,9 +1,13 @@
 import React, { Component } from "react"
+import Header from "../components/Header"
 
 export default class IndexPage extends Component {
     render() {
         return (
-            <div className="container p-5">
+            <div>
+                <Header>
+                    <p>Laboris fugiat labore Lorem aute adipisicing non sit duis eiusmod excepteur dolore fugiat sit. Aute deserunt sunt laboris velit aliquip voluptate nostrud esse qui laborum culpa. Sint nisi veniam id consectetur id laboris culpa nisi. Incididunt do ea aliquip est consectetur culpa aliquip incididunt adipisicing. Sunt elit minim mollit sunt cillum fugiat voluptate minim.</p>
+                </Header>
                 <button className={
                     "cursor-pointer" +
                     " bg-red-500" + 

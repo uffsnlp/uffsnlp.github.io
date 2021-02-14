@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    -webkit-font-smoothing: antialised;
+    -moz-font-smoothing: antialised;
+    font-smooth: antialised;
+}
