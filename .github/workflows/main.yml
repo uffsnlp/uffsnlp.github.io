@@ -3,7 +3,7 @@ name: Deploy do site
 on:
   pull_request:
     branches:
-      - dev
+      - master
 
 jobs:
   build:
