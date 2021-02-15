@@ -6,7 +6,7 @@
     justify-content: flex-end;
     padding: .5rem 1rem;
     font-weight: 300;
-    background-color: transparentize($color: $orange, $amount: 0.9);
+    background-color: $red;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
@@ -21,10 +21,10 @@
     padding: 1rem;
     text-decoration:none;
     border-radius: 0.3rem;
-    color: darken($color: $orange-grey, $amount: 30%);
+    color: white;
 
     &:hover {
-        background-color: transparentize($color: $orange, $amount: 0.95);
+        background-color: transparentize($color: $orange, $amount: 0.8);
     }
 }
 

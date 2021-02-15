@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import "./navbar.scss";
+import { Link } from "gatsby";
 
 class Navbar extends Component {
     render(){
@@ -8,26 +9,26 @@ class Navbar extends Component {
 
         return (
             <nav className="navbar navbar-fixed">
-                <a href={home} className="nav-item">
+                <Link to={home} className="nav-item">
                     Início
-                </a>
-                <a href={blog} className="nav-item">
+                </Link>
+                <Link to={blog} className="nav-item">
                     Blog
-                </a>
-                <a href="#" className="nav-item dropdown">
+                </Link>
+                <div to="#" className="nav-item dropdown">
                     O grupo
                     <div className="dropdown-content">
-                        <a href={bibliography} className="dropdown-item"> 
+                        <Link to={bibliography} className="dropdown-item"> 
                             Bibliografia
-                        </a>
-                        <a href={contact} className="dropdown-item">
+                        </Link>
+                        <Link to={contact} className="dropdown-item">
                             Contato
-                        </a>
+                        </Link>
                     </div>
-                </a>
-                <a href={join} className="nav-item">
+                </div>
+                <Link to={join} className="nav-item">
                     Participar
-                </a>
+                </Link>
             </nav>
         );
     }

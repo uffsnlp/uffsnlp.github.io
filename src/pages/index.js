@@ -11,7 +11,7 @@ export default class IndexPage extends Component {
     render() {
         return (
             <div>
-                <Navbar/>
+                <Navbar />
                 <Header 
                     title="Grupo de Estudos em NLP - UFFS"
                     subtitle="Ea pariatur ea cupidatat irure in enim incididunt elit consectetur cupidatat."
