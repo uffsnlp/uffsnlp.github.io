@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import "./navbar.scsss";
+import "./navbar.scss";
 
 class Navbar extends Component {
     render(){
