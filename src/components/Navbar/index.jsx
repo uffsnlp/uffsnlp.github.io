@@ -21,9 +21,6 @@ class Navbar extends Component {
                         <Link to={bibliography} className="dropdown-item"> 
                             Bibliografia
                         </Link>
-                        <Link to={contact} className="dropdown-item">
-                            Contato
-                        </Link>
                     </div>
                 </div>
                 <Link to={join} className="nav-item">

@@ -11,39 +11,45 @@ class About extends Component {
             <div className="about">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6" data-aos="fade-right" data-aos-duration="1500">
+                        <div className="col-md-6" data-aos="fade-right" data-aos-duration="1300">
                             <h2 className="title">
                                 Justificativa
                             </h2>
                             <p>
-                                A carência de disciplinas que abrangem áreas emergentes da computação é evidente
-                                em nosso curso de graduação, em consequência disso os estudantes tendem a ater-se
-                                às áreas a tempo consolidadas, o que de certo modo limita o horizonte de pesquisas
-                                científicas a serem exploradas pelo curso.
+                                A carência de disciplinas que abrangem áreas emergentes
+                                da computação é evidente em nosso curso de graduação,
+                                em consequência disso os estudantes tendem a ater-se
+                                às áreas a tempo consolidadas, o que de certo modo
+                                limita o horizonte de pesquisas científicas a serem
+                                exploradas pelo curso.
                             </p>
                             <p>
                                 Outro ponto importante é o crescente avanço e popularidade
-                                que o ramo de Deep Learning tem ganho o que contribuiu com o desenvolvimento
-                                da área de Processamento de Linguagem Natural o que
-                                consequentemente tornou-a muito atrativa da perspectiva da indústria.
+                                que o ramo de Deep Learning tem ganho o que contribuiu com
+                                o desenvolvimento da área de Processamento de Linguagem
+                                Natural o que consequentemente tornou-a muito atrativa
+                                da perspectiva da indústria.
                             </p>
                             <div className="about__img-container">
                                 <img src={Justification} className="about__img" alt="Justification" />
                             </div>
                         </div>
-                        <div className="col-md-6" data-aos="fade-left" data-aos-duration="1500">
+                        <div className="col-md-6" data-aos="fade-left" data-aos-duration="1300">
                             <h2 className="title">
                                 Objetivos
                             </h2>
                             <ul className="goals">
                                 <li>
-                                    Compreensão dos conceitos, ferramentas e tecnologias estado-da-arte
+                                    Compreensão dos conceitos, ferramentas e tecnologias
+                                    estado-da-arte
                                 </li>
                                 <li>
-                                    Desenvolver pequenas aplicações que garantam o exercício dos conceitos estudados
+                                    Desenvolver pequenas aplicações que garantam o exercício
+                                    dos conceitos estudados
                                 </li>
                                 <li>
-                                    Divulgar a área de Processamento de Linguagem Natural na instituição
+                                    Divulgar a área de Processamento de Linguagem Natural na
+                                    instituição
                                 </li>
                                 <li>
                                     Promover oficinas
@@ -58,7 +64,7 @@ class About extends Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6" data-aos="fade-right" data-aos-duration="1500">
+                        <div className="col-md-6" data-aos="fade-right" data-aos-duration="1300">
                             <h2 className="title">
                                 Métodos
                             </h2>
@@ -68,7 +74,8 @@ class About extends Component {
                                 </li>
                                 <li>
                                     Atividades práticas como <i> coding dojos</i> e problemas
-                                    do <a href="https://kaggle.com" className="kaggle" target="_blank" rel="noopener noreferrer">Kaggle</a>
+                                    do <a href="https://kaggle.com" className="kaggle"
+                                        target="_blank" rel="noopener noreferrer">Kaggle</a>
                                 </li>
                                 <li>
                                     Produção de resenhas e revisões bibliográficas
@@ -78,7 +85,7 @@ class About extends Component {
                                 <img src={Methods} className="about__img" alt="Methods" />
                             </div>
                         </div>
-                        <div className="col-md-6" data-aos="fade-left" data-aos-duration="1500">
+                        <div className="col-md-6" data-aos="fade-left" data-aos-duration="1300">
                             <h2 className="title">
                                 Linhas de Pesquisa
                             </h2>
