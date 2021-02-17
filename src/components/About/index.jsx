@@ -17,7 +17,7 @@ class About extends Component {
                             </h2>
                             <p>
                                 A carência de disciplinas que abrangem áreas emergentes da computação é evidente
-                                em nosso curso de graduação, em função disso os estudantes tendem a ater-se
+                                em nosso curso de graduação, em consequência disso os estudantes tendem a ater-se
                                 às áreas a tempo consolidadas, o que de certo modo limita o horizonte de pesquisas
                                 científicas a serem exploradas pelo curso.
                             </p>
