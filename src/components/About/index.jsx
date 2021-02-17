@@ -11,8 +11,8 @@ class About extends Component {
             <div className="about">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6">
-                            <h2 class="title">
+                        <div className="col-md-6" data-aos="fade-right" data-aos-duration="1500">
+                            <h2 className="title">
                                 Justificativa
                             </h2>
                             <p>
@@ -23,7 +23,7 @@ class About extends Component {
                             </p>
                             <p>
                                 Outro ponto importante é o crescente avanço e popularidade
-                                que o ramo de DeepLearning tem ganho o que contribuiu com o desenvolvimento
+                                que o ramo de Deep Learning tem ganho o que contribuiu com o desenvolvimento
                                 da área de Processamento de Linguagem Natural o que
                                 consequentemente tornou-a muito atrativa da perspectiva da indústria.
                             </p>
@@ -31,8 +31,8 @@ class About extends Component {
                                 <img src={Justification} className="about__img" alt="Justification" />
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <h2 class="title">
+                        <div className="col-md-6" data-aos="fade-left" data-aos-duration="1500">
+                            <h2 className="title">
                                 Objetivos
                             </h2>
                             <ul className="goals">
@@ -53,13 +53,13 @@ class About extends Component {
                                 </li>
                             </ul>
                             <div className="about__img-container">
-                                <img src={Goals} className="about__img" alt="Justification" />
+                                <img src={Goals} className="about__img" alt="Goals" />
                             </div>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6">
-                            <h2 class="title">
+                        <div className="col-md-6" data-aos="fade-right" data-aos-duration="1500">
+                            <h2 className="title">
                                 Métodos
                             </h2>
                             <ul className="methods">
@@ -75,11 +75,11 @@ class About extends Component {
                                 </li>
                             </ul>
                             <div className="about__img-container">
-                                <img src={Methods} className="about__img" alt="Justification" />
+                                <img src={Methods} className="about__img" alt="Methods" />
                             </div>
                         </div>
-                        <div className="col-md-6">
-                            <h2 class="title">
+                        <div className="col-md-6" data-aos="fade-left" data-aos-duration="1500">
+                            <h2 className="title">
                                 Linhas de Pesquisa
                             </h2>
                             <ul className="subjects">
@@ -94,7 +94,7 @@ class About extends Component {
                                 </li>
                             </ul>
                             <div className="about__img-container">
-                                <img src={ResearchSubjects} className="about__img" alt="Justification" />
+                                <img src={ResearchSubjects} className="about__img" alt="Research Subjects" />
                             </div>
                         </div>
                     </div>
