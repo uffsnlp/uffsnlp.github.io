@@ -11,7 +11,7 @@
 # Site do Grupo de Estudos UFFSNLP
 
 <!-- O que é / Justificativa -->
-O grupo de estudos em Processamento de Linguagem Natural (NLP, do inglês _Natural Language Processing_) da Universidade Federal da Fronteira Sul tem como intuito ampliar o horizonte de possibilidades de pesquisa e inovação da comunidade acadêmica na área (para mais informações sobre o grupo verifique [este link](/sobre)). Este repositório mantém o código do site do grupo de estudos.
+O grupo de estudos em Processamento de Linguagem Natural (NLP, do inglês _Natural Language Processing_) da Universidade Federal da Fronteira Sul tem como intuito ampliar o horizonte de possibilidades de pesquisa e inovação da comunidade acadêmica na área (para mais informações sobre o grupo verifique [este link](https://uffsnlp.github.io/#about)). Este repositório mantém o código do site do grupo de estudos.
 
 ## Como rodar o projeto
 
@@ -44,7 +44,7 @@ gatsby develop
 
 Sua ajuda é muito bem-vinda!! Confira o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber como fazê-lo. Em suma, basta seguir os seguintes passos:
 
-1. Selecione uma [issue](/issues);
+1. Selecione uma [issue](https://github.com/uffsnlp/uffsnlp.github.io/issues);
 2. Resolva ela;
 3. Crie uma pull request;
 4. Repita!!

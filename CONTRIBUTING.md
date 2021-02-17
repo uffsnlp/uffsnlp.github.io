@@ -12,7 +12,7 @@ Seguir o [_style guide_ do Airbnb](https://github.com/airbnb/javascript);
 
 ### React/JSX
 
-Seguir o [_style guide_ do Airbnb](https://github.com/airbnb/javascript/tree/react);
+Seguir o [_style guide_ do Airbnb](https://github.com/airbnb/javascript/tree/master/react);
 
 ### CSS/SASS
 
