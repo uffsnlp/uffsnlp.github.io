@@ -4,8 +4,8 @@ import { Link } from "gatsby";
 
 class Navbar extends Component {
     render(){
-        let home="/", blog="/", bibliography = "/";
-        let contact="/", join="/";
+        let home="/", blog="/blog", bibliography = "/bibliograhpy";
+        let join="/join";
 
         return (
             <nav className="navbar navbar-fixed">

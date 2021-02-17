@@ -11,15 +11,17 @@ class Header extends Component {
                         <div className="col-md-6">
                             <h1 
                                 className="header__title"
-                                data-aos="fade-down"
+                                data-sal="slide-down"
+                                data-sal-duration="400"
                             >
                                 { this.props.title }
                             </h1>
 
                             <h3
                                 className="header__subtitle"
-                                data-aos="fade-down"
-                                data-aos-delay="200"
+                                data-sal="slide-down"
+                                data-sal-duration="400"
+                                data-sal-delay="200"
                             >
                                 { this.props.subtitle }
                             </h3>
@@ -30,8 +32,9 @@ class Header extends Component {
                                 src={HeaderImg}
                                 alt="Grupo de Estudos em NLP - UFFS"
                                 className="header__image"
-                                data-aos="zoom-out"
-                                data-aos-delay="500"
+                                data-sal="zoom-out"
+                                data-sal-duration="400"
+                                data-sal-delay="400"
                             />
                         </div>
                     </div>

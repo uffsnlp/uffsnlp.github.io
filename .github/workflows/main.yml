@@ -1,4 +1,4 @@
-name: Deploy do site 
+name: Deploy do site
 
 on:
   pull_request:

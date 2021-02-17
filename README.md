@@ -1,7 +1,10 @@
 <p align="center">
     <img width="800" src="src/assets/images/uffsnlp/logo.png" title="Logo do projeto"><br />
+</p>
+
+<p align="left">
     <img src="https://img.shields.io/maintenance/yes/2021?style=for-the-badge" title="Status do projeto" />
-    <img src="https://img.shields.io/github/checks-status/uffsnlp/uffsnlp.github.io/gh-pages?label=Build&style=for-the-badge" />
+    <img src="https://img.shields.io/github/workflow/status/uffsnlp/uffsnlp.github.io/Deploy%20do%20site?style=for-the-badge" />
     <a href="https://www.gatsbyjs.com/"><img src="https://img.shields.io/badge/gatsby-2.26.1-663399?style=for-the-badge" /></a>
 </p>
 
