@@ -23,15 +23,29 @@ class Footer extends Component {
                         <p className="footer__credits pt-2">
                             As imagens utilizadas nesse
                             site foram criadas por vários designers que
-                            contribuem com o <a href="https://undraw.co" className="footer__link" target="_blank" rel="noopener noreferrer">
-                                unDraw.
+                            contribuem com o <a href="https://undraw.co"
+                                    className="footer__link"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    unDraw.
                             </a>
                         </p>
                         <p className="footer__credits">
                             Icons made
-                            by <a href="https://www.flaticon.com/authors/pixel-perfect" className="footer__link" title="Pixel perfect">
-                                Pixel perfect </a>
-                            from <a href="https://www.flaticon.com/" className="footer__link" title="Flaticon">
+                            by <a href="https://www.flaticon.com/authors/pixel-perfect"
+                                className="footer__link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                title="Pixel perfect"
+                            >
+                                Pixel perfect
+                            </a> from <a href="https://www.flaticon.com/" 
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="footer__link"
+                                    title="Flaticon"
+                            >
                                 www.flaticon.com
                             </a>
                         </p>
