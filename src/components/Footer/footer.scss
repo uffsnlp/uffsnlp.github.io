@@ -1,0 +1,49 @@
+@import "../../assets/scss/variables";
+
+.footer {
+    background-color: $dark-grey;
+    font-weight: 250;
+    color: $grey;
+    padding: 1.5rem;
+    box-shadow: 0px -20px 24px 11px rgb(69 75 105 / 26%);
+
+    &__link {
+        color: $grey;
+        text-decoration-style: dotted;
+        text-decoration-thickness: 1px;
+
+        &:hover {
+            color: $dark-grey;
+            font-weight: 350;
+            background: lighten($color: $dark-grey, $amount: 30%);
+            transition: all 0.35s ease-out;
+        }
+    }
+    
+    &__img {
+        fill: $grey;
+        height: 32px;
+        width: 32px;
+    }
+    
+    &__credits {
+        text-align: center;
+        font-size: smaller;
+    }
+
+    &__heart {
+        fill: red;
+        width: .75rem;
+        animation: pulse 1.3s ease infinite;
+    }
+    
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.2); }
+        100% { transform: scale(1); }
+    }
+}
+
+.right {
+    text-align: right;
+}
