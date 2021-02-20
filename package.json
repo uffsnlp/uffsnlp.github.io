@@ -16,10 +16,12 @@
   "dependencies": {
     "bootstrap": "^5.0.0-beta2",
     "gatsby": "^2.26.1",
+    "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-sass": "^3.2.0",
     "gatsby-plugin-scroll-reveal": "^0.0.7",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
     "sass": "^1.32.7"
   },
   "devDependencies": {
