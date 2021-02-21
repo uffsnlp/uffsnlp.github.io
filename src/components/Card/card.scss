@@ -1,0 +1,26 @@
+@import "../../assets/scss/variables";
+
+/* Card-specif variables */
+$card-border-radius: 4px;
+
+.card {
+    position: relative;
+    border-radius: $card-border-radius;
+    background-color: lighten($blue-grey, 20%);
+    color: $grey;
+    box-shadow: $shadow-lg;
+
+    &__title {
+        background-color: $blue-grey;
+        width: 100%;
+        padding: 1.25rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        border-top-left-radius: $card-border-radius;
+        border-top-right-radius: $card-border-radius;
+    }
+
+    &__body {
+        padding: 1rem;
+    }
+}

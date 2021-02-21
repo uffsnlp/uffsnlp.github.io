@@ -10,34 +10,15 @@ class TimelinePage extends Component {
             <MainLayout>
                 <Navbar />
 
-                <div class="p-5"></div>
+                <div className="p-5"></div>
 
                 <h1>Cronograma do Grupo de Estudos</h1>
 
-                <div class="p-4"></div>
+                <div className="p-4"></div>
 
 
                 <div className="d-sm-block d-none">
                     <Timeline>
-                        {/* <TimelineItem
-                            title="Great Title"
-                            description="Sint ullamco aliquip est et ut aute laborum nostrud qui est non."
-                        />
-
-                        <TimelineItem
-                            title="Great Title"
-                            description="Sint ullamco aliquip est et ut aute laborum nostrud qui est non."
-                        />
-
-                        <TimelineItem
-                            title="Great Title"
-                            description="Sint ullamco aliquip est et ut aute laborum nostrud qui est non."
-                        />
-
-                        <TimelineItem
-                            title="Great Title"
-                            description="Sint ullamco aliquip est et ut aute laborum nostrud qui est non."
-                        /> */}
                     </Timeline>
                 </div>
             </MainLayout>
