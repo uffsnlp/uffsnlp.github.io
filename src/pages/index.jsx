@@ -3,19 +3,12 @@ import Header from "../components/Header"
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Footer from "../components/Footer";
-import { Helmet } from "react-helmet";
-import Favicon from "../assets/images/uffsnlp/icon.svg";
+import MainLayout from "../layouts/MainLayout";
 
 export default class IndexPage extends Component {
-    render() {
+    render () {
         return (
-            <div>
-                <Helmet>
-                    <meta charSet="utf-8" />
-                    <title>UFFS · NLP</title>
-                    <link rel="canonical" href="https://uffsnlp.github.io" />
-                    <link rel="shortcut icon" type="image/jpg" href={Favicon} />
-                </Helmet>
+            <MainLayout>
                 <Navbar />
                 <Header 
                     title="Grupo de Estudos em NLP - UFFS"
@@ -23,7 +16,7 @@ export default class IndexPage extends Component {
                 />
                 <About />
                 <Footer />
-            </div>
+            </MainLayout>
         )
     }
 }
