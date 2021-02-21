@@ -1,0 +1,113 @@
+@import "../../assets/scss/variables";
+
+/* Timeline-specific variables */
+$circle-size: 4rem;
+$ruler-width: 4px;
+$light-primary: #e9c5c5;
+
+/* Timeline container */
+.timeline {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    /* Vertical ruler */
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 2%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: $ruler-width;
+        height: 98%;
+        background-color: $light-primary;
+    }
+
+    .timeline-item {
+        width: 100%;
+        position: relative;
+        margin-bottom: 5rem;
+
+        /* Circle demarking a timeline item */
+        .timeline-item__circle {
+            text-align: center;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: $circle-size;
+            height: $circle-size;
+            border: $ruler-width solid $orange;
+            border-radius: 50%;
+            background-color: white;
+            color: transparentize($blue-grey, .1%);
+            padding-top: .1rem;
+
+            .day {
+                font-size: .9rem;
+                font-weight: 400;
+            }
+
+            .month {
+                font-size: 1.1rem;
+                font-weight: 700;
+            }
+
+            .year {
+                font-size: .7rem;
+                font-weight: 300
+            }
+        }
+
+        /* Circle variant for no text inside */
+        .timeline-item__circle--small {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: $circle-size / 2.5;
+            height: $circle-size / 2.5;
+            border-radius: 50%;
+            background-color: $orange;
+        }
+
+        &:nth-child(even) {
+            .timeline-item__content {
+                float: right;
+                display: block;
+
+                &::after {
+                    left: -.8rem;
+                    border-width: .6rem .8rem .6rem 0;
+                    border-color: transparent white transparent transparent;
+                }
+            }
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    }
+
+    /* Timeline content container */
+    .timeline-item__content {
+        position: relative;
+        width: 45%;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: $circle-size / 2;
+            right: -.8rem;
+            transform: translateY(-50%);
+            border-style: solid;
+            width: 0;
+            height: 0;
+            border-width: .6rem 0 .6rem .8rem;
+            border-color: transparent transparent transparent white;
+        }
+    }
+}

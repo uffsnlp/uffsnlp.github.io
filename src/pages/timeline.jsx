@@ -14,6 +14,9 @@ class TimelinePage extends Component {
 
                 <h1>Cronograma do Grupo de Estudos</h1>
 
+                <div class="p-4"></div>
+
+
                 <div className="d-sm-block d-none">
                     <Timeline>
                         {/* <TimelineItem
