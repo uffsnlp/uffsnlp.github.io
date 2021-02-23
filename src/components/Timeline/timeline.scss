@@ -3,31 +3,33 @@
 /* Timeline-specific variables */
 $circle-size: 4rem;
 $ruler-width: 4px;
-$light-primary: #e9c5c5;
+$light-orange: #e9c5c5;
+$timeline-item-spacer: 8rem;
 
 /* Timeline container */
 .timeline {
     position: relative;
     width: 100%;
     height: 100%;
+    padding-top: $timeline-item-spacer;
 
     /* Vertical ruler */
     &::before {
         content: "";
         display: block;
         position: absolute;
-        top: 2%;
+        top: .1rem;
         left: 50%;
         transform: translateX(-50%);
         width: $ruler-width;
-        height: 98%;
-        background-color: $light-primary;
+        height: 100%;
+        background-color: $light-orange;
     }
 
     .timeline-item {
         width: 100%;
         position: relative;
-        margin-bottom: 5rem;
+        margin-bottom: $timeline-item-spacer;
 
         /* Circle demarking a timeline item */
         .timeline-item__circle {
@@ -52,6 +54,7 @@ $light-primary: #e9c5c5;
             .month {
                 font-size: 1.1rem;
                 font-weight: 700;
+                text-transform: uppercase;
             }
 
             .year {
@@ -77,10 +80,20 @@ $light-primary: #e9c5c5;
                 float: right;
                 display: block;
 
+                /* Arrow-like on top of content */
                 &::after {
                     left: -.8rem;
-                    border-width: .6rem .8rem .6rem 0;
-                    border-color: transparent white transparent transparent;
+                    border-width: .7rem .8rem .7rem 0;
+                    border-color: transparent $orange transparent transparent;
+                }
+
+                /* TODO(@jeanchilger): find a better way of doing this */
+                .card {
+                    background-image: linear-gradient(
+                        45deg,
+                        $orange,
+                        $red
+                    );
                 }
             }
         }
@@ -97,6 +110,7 @@ $light-primary: #e9c5c5;
         position: relative;
         width: 45%;
 
+        /* Arrow-like on top of content */
         &::after {
             content: "";
             position: absolute;
@@ -106,8 +120,105 @@ $light-primary: #e9c5c5;
             border-style: solid;
             width: 0;
             height: 0;
-            border-width: .6rem 0 .6rem .8rem;
-            border-color: transparent transparent transparent white;
+            border-width: .7rem 0 .7rem .8rem;
+            border-color: transparent transparent transparent $orange;
         }
+    }
+}
+
+.timeline-item {
+    svg {
+        position: absolute;
+        top: $circle-size;
+        left: 50%;
+        transform: translateX(-2px) translateY(-2px);
+    }
+
+
+    &:nth-child(even) {
+        svg {
+            right: 50%;
+            transform: translateX(-100%) translateX(2px) scale(-1, 1);
+        }
+    }
+
+    .timeline-item__g {
+        stroke: $light-orange;
+    }
+}
+
+#ellipse1 {
+    animation: blink-fill .3s .6s forwards ease,
+        blink-stroke .3s .6s forwards ease;
+}
+
+#ellipse2 {
+    animation: blink-stroke .5s .6s forwards ease;
+}
+
+#ellipse3 {
+    animation: blink-fill .7s 1s forwards ease,
+        blink-stroke .7s 1s forwards ease;
+}
+
+#ellipse4 {
+    animation: blink-stroke .6s .9s forwards ease;
+}
+
+#ellipse5 {
+    animation: blink-stroke .5s .75s forwards ease;
+}
+
+@keyframes blink-fill {
+    0% {
+        fill: $light-orange;
+    }
+
+    25% {
+        fill: $orange;
+
+    }
+
+    50% {
+        fill: $light-orange;
+    }
+
+    75% {
+        fill: $orange;
+    }
+
+    90% {
+        fill: $light-orange;
+    }
+
+    100% {
+        fill: $orange;
+    }
+}
+
+@keyframes blink-stroke {
+    0% {
+        stroke: $light-orange;
+    }
+
+    25% {
+        stroke: $orange;
+
+    }
+
+    50% {
+        stroke: $light-orange;
+    }
+
+    75% {
+        stroke: $orange;
+    }
+
+    90% {
+        stroke: $light-orange;
+    }
+
+    100% {
+        stroke: $orange;
     }
 }

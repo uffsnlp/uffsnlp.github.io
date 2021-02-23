@@ -8,6 +8,11 @@ module.exports = {
     /* Your site config here */
     plugins: [
         "gatsby-plugin-sass",
-        "gatsby-plugin-scroll-reveal",
+        {
+            resolve: "gatsby-plugin-scroll-reveal",
+            options: {
+                threshold: 1,
+            },
+        },
     ],
 }
