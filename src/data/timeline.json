@@ -1,0 +1,173 @@
+[
+    {
+        "title": "Introdução ao Processamento de Linguagem Natural",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-02-24"
+    },
+
+    {
+        "title": "Oficina: Python e Pandas",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-03-03"
+    },
+
+    {
+        "title": "Pré-processamento de Texto",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-03-10"
+    },
+
+    {
+        "title": "Oficina: Machine Learning I",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-03-17"
+    },
+
+    {
+        "title": "Oficina: Machine Learning II",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-03-24"
+    },
+
+    {
+        "title": "Extração de Características para Texto",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-03-31"
+    },
+
+    {
+        "title": "Classificação de Texto I",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-04-07"
+    },
+
+    {
+        "title": "Classificação de Texto II",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-04-14"
+    },
+
+    {
+        "title": "Classificação de Texto III",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-04-21"
+    },
+
+    {
+        "title": "Oficina: Introdução à Deep Learning",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-04-28"
+    },
+
+    {
+        "title": "Oficina: Deep Learning para NLP",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-05-05"
+    },
+
+    {
+        "title": "Machine Translation I",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-05-12"
+    },
+
+    {
+        "title": "Machine Translation II",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-05-19"
+    },
+
+    {
+        "title": "Machine Translation III",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-05-26"
+    },
+
+    {
+        "title": "Recesso"
+    },
+
+    {
+        "title": "Revisão de Deep Learning para NLP",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-06-16"
+    },
+
+    {
+        "title": "Transformer e Autoencoders I",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-06-23"
+    },
+
+    {
+        "title": "Transformer e Autoencoders II",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-06-30"
+    },
+
+    {
+        "title": "Transformer e Autoencoders III",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-07-07"
+    },
+
+    {
+        "title": "Modelos de Linguagem I",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-07-14"
+    },
+
+    {
+        "title": "Modelos de Linguagem II",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-08-04"
+    },
+
+    {
+        "title": "Text Generation I",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-08-11"
+    },
+
+    {
+        "title": "Text Generation II",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-08-18"
+    },
+
+    {
+        "title": "Reading Comprehension I",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-08-25"
+    },
+
+    {
+        "title": "Reading Comprehension II",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-09-01"
+    },
+
+    {
+        "title": "Reading Comprehension III",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-09-08"
+    },
+
+    {
+        "title": "Question Answering I",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-09-15"
+    },
+
+    {
+        "title": "Question Answering II",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-09-22"
+    },
+
+    {
+        "title": "Question Answering III",
+        "description": "Irure elit fugiat qui excepteur incididunt incididunt laborum fugiat ullamco Lorem anim qui commodo.",
+        "date": "2021-09-29"
+    }
+]
