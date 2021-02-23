@@ -21,7 +21,7 @@ export default class IndexPage extends Component {
                     title="Blog de notícias do grupo"
                     subtitle="Aqui você irá encontrar sínteses dos encontros semanais,
                     produções do grupo de estudo (resenhas, aplicações, apresentações) e
-                    notícias quentes da área de NLP."
+                    notícias recentes da área de NLP."
                     headerImage={NewImage}
                 />
                 <Footer />

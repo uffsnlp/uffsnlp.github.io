@@ -3,7 +3,7 @@ import "./header.scss";
 import HeaderImg from "../../assets/images/undraw_teacher_35j2.svg";
 
 class Header extends Component {
-    render() { 
+    render() {
         return (
             <header className="header">
                 <div className="container">
@@ -29,7 +29,7 @@ class Header extends Component {
 
                         <div className="col-md-6">
                             <img 
-                                src={HeaderImg}
+                                src={this.props.headerImage || HeaderImg}
                                 alt="Grupo de Estudos em NLP - UFFS"
                                 className="header__image"
                                 data-sal="zoom-out"
