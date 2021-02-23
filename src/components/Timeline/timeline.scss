@@ -4,14 +4,14 @@
 $circle-size: 4rem;
 $ruler-width: 4px;
 $light-orange: #e9c5c5;
-$timeline-item-spacer: 8rem;
+$timeline-item-spacer: 9rem;
 
 /* Timeline container */
 .timeline {
     position: relative;
     width: 100%;
     height: 100%;
-    padding-top: $timeline-item-spacer;
+    padding: $timeline-item-spacer 0;
 
     /* Vertical ruler */
     &::before {
@@ -150,13 +150,6 @@ $timeline-item-spacer: 8rem;
         stroke: $light-orange;
     }
 }
-
-// #wire {
-//     stroke-dasharray: 500;
-//     stroke-dashoffset: 500;
-//     animation: line-fill 4s forwards linear;
-//     animation-play-state: paused;
-// }
 
 #ellipse1 {
     animation: blink-fill .3s .6s forwards ease,

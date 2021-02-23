@@ -8,15 +8,17 @@ import MainLayout from "../layouts/MainLayout";
 export default class IndexPage extends Component {
     render () {
         return (
-            <MainLayout>
-                <Navbar />
-                <Header 
-                    title="Grupo de Estudos em NLP - UFFS"
-                    subtitle=""
-                />
-                <About />
+            <>
+                <MainLayout>
+                    <Navbar />
+                    <Header 
+                        title="Grupo de Estudos em NLP - UFFS"
+                        subtitle=""
+                    />
+                    <About />
+                </MainLayout>
                 <Footer />
-            </MainLayout>
+            </>
         )
     }
 }

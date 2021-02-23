@@ -29,15 +29,19 @@ class TimelineItem extends Component {
         visible: false,
     };
 
+    /**
+     * Handles the befaviour of an element when it appears in viewport.
+     * Particularlly applied to the svg figure.
+     * 
+     * @param {boolean} isIntersecting 
+     * @param {number} intersectionRatio 
+     */
     handleChange = ({ isIntersecting, intersectionRatio }) => {
-
         if (isIntersecting) {
             document.querySelectorAll(`#${this.id} .circuit1 *`)
                 .forEach(element => {
                 element.style.animationPlayState = "running";
             });
-
-            console.log(this.state.visible);
 
             if (! this.state.visible) {
                 document.querySelector(`#${this.id} #wire`)
