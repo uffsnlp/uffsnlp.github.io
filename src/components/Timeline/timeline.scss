@@ -134,6 +134,10 @@ $timeline-item-spacer: 8rem;
         transform: translateX(-2px) translateY(-2px);
     }
 
+    .svg-animation--paused {
+        animation-play-state: paused;
+    }
+
 
     &:nth-child(even) {
         svg {
@@ -147,26 +151,49 @@ $timeline-item-spacer: 8rem;
     }
 }
 
+// #wire {
+//     stroke-dasharray: 500;
+//     stroke-dashoffset: 500;
+//     animation: line-fill 4s forwards linear;
+//     animation-play-state: paused;
+// }
+
 #ellipse1 {
     animation: blink-fill .3s .6s forwards ease,
         blink-stroke .3s .6s forwards ease;
+    animation-play-state: paused;
+    
 }
 
 #ellipse2 {
     animation: blink-stroke .5s .6s forwards ease;
+    animation-play-state: paused;
 }
 
 #ellipse3 {
     animation: blink-fill .7s 1s forwards ease,
         blink-stroke .7s 1s forwards ease;
+    animation-play-state: paused;
 }
 
 #ellipse4 {
     animation: blink-stroke .6s .9s forwards ease;
+    animation-play-state: paused;
 }
 
 #ellipse5 {
     animation: blink-stroke .5s .75s forwards ease;
+    animation-play-state: paused;
+}
+
+@keyframes line-fill {
+    100% {
+        stroke-dashoffset: 0;
+    }
+
+    // 100% {
+    //     stroke: url(#fill-left-to-right)
+    // }
 }
 
 @keyframes blink-fill {
