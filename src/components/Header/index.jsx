@@ -3,7 +3,7 @@ import "./header.scss";
 import HeaderImg from "../../assets/images/undraw_teacher_35j2.svg";
 
 class Header extends Component {
-    render() {
+    render () {
         return (
             <header className="header">
                 <div className="container">
