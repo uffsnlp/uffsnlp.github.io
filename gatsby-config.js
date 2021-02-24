@@ -18,7 +18,7 @@ module.exports = {
             resolve: "gatsby-source-filesystem",
             options: {
                 name: "notebooks",
-                path: `${__dirname}/src/posts/notebooks`,
+                path: `${__dirname}/src/data/posts/notebooks`,
                 ignore: ["**/.ipynb_checkpoints"],
             },
         },
