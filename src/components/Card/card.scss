@@ -26,3 +26,13 @@ $card-border-radius: 4px;
         // color: $orange;
     }
 }
+
+.card--no-content {
+    .card__title {
+        border-bottom: none;
+    }
+
+    .card__body {
+        padding: 0;
+    }
+}

@@ -63,23 +63,33 @@ class TimelineItem extends Component {
     render () {
         let { title, description } = this.props;
         let year, month, day;
+        let circleContent = "";
+        let circleClass = "timeline-item__circle";
 
         if (typeof this.props.date != "undefined") {
             [year, month, day] = this.props.date.split("-");
             month = MONTHS[parseInt(month) - 1];
+    
+            circleContent = 
+            (<>
+                <div className="day">{day}</div>
+                <div className="month">{month}</div>
+                <div className="year">{year}</div>
+            </>);
+        
+        } else {
+            circleClass += "--small";
         }
 
         return (
             <div class="timeline-item" id={ this.id }>
                 <span
-                    className="timeline-item__circle"
+                    className={circleClass}
                     data-sal="zoom-in"
                     data-sal-delay="200"
                     data-sal-duration="600"
                 >
-                    <div className="day">{day}</div>
-                    <div className="month">{month}</div>
-                    <div className="year">{year}</div>
+                    {circleContent}   
                 </span>
                 <div
                     class="timeline-item__content"

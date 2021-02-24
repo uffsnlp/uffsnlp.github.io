@@ -66,7 +66,7 @@ $timeline-item-spacer: 9rem;
         /* Circle variant for no text inside */
         .timeline-item__circle--small {
             position: absolute;
-            top: 0;
+            top: $circle-size / 2 - $circle-size / 5;
             left: 50%;
             transform: translateX(-50%);
             width: $circle-size / 2.5;
@@ -132,6 +132,10 @@ $timeline-item-spacer: 9rem;
         top: $circle-size;
         left: 50%;
         transform: translateX(-2px) translateY(-2px);
+    }
+
+    .timeline-item__circle--small ~ svg {
+        top: $circle-size / 2 !important;
     }
 
     .svg-animation--paused {
