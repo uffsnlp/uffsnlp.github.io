@@ -9,10 +9,7 @@ module.exports = {
     plugins: [
         "gatsby-plugin-sass",
         {
-            resolve: "gatsby-plugin-scroll-reveal",
-            options: {
-                threshold: 1,
-            }
+            resolve: "gatsby-plugin-scroll-reveal"
         },
         {
             resolve: "gatsby-source-filesystem",
