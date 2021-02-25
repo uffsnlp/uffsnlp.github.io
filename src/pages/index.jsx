@@ -11,7 +11,7 @@ export default class IndexPage extends Component {
             <>
                 <MainLayout>
                     <Navbar />
-                    <div className="mt-sm-7 mb-5">
+                    <div className="mt-sm-7 mb-sm-auto mb-5">
                         <Header 
                             title="Grupo de Estudos em NLP - UFFS"
                             subtitle="Bem-vindo ao site grupo de estudos sobre Processamento de
@@ -19,7 +19,7 @@ export default class IndexPage extends Component {
                             Nesse site você irá encontrar informações sobre como participar, cronograma do grupo,
                             bibliografia, resumo dos encontros semanais, e notícias quentes sobre a área
                             que serão eventualmente postadas em nosso blog."
-                            />
+                        />
                     </div>
                     <About />
                 </MainLayout>
