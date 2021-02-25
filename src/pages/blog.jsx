@@ -10,14 +10,16 @@ export default class IndexPage extends Component {
         return (
             <>
                 <MainLayout>
-                    <Navbar />
-                    <Header 
-                        title="Blog de notícias do grupo"
-                        subtitle="Aqui você irá encontrar sínteses dos encontros semanais,
-                            produções do grupo de estudo (resenhas, aplicações, apresentações) e
-                            notícias recentes da área de NLP."
-                        headerImage={NewImage}
-                    />
+                    <div className="pt-5 sm:pt-8">
+                        <Navbar />
+                        <Header 
+                            title="Blog de notícias do grupo"
+                            subtitle="Aqui você irá encontrar sínteses dos encontros semanais,
+                                produções do grupo de estudo (resenhas, aplicações, apresentações) e
+                                notícias recentes da área de NLP."
+                            headerImage={NewImage}
+                        />
+                    </div>
                 </MainLayout>
                 <Footer />
             </>
