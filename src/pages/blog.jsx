@@ -8,7 +8,7 @@ import NewImage from "../assets/images/undraw_newspaper_k72w.svg";
 export default class IndexPage extends Component {
     render() {
         return (
-            <>
+            <div className="mt-sm-7 mt-5">
                 <MainLayout>
                     <Navbar />
                     <Header 
@@ -20,7 +20,7 @@ export default class IndexPage extends Component {
                     />
                 </MainLayout>
                 <Footer />
-            </>
+            </div>
         )
     }
 }

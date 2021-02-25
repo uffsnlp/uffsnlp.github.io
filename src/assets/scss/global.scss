@@ -9,3 +9,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@media (max-width: 768px){ 
+    .sm-align-center {
+        text-align: center !important;
+    }
+
+    .mt-sm-7 {
+        margin-top: 7rem !important;
+    }
+}
