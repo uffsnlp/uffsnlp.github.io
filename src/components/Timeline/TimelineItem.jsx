@@ -82,7 +82,7 @@ class TimelineItem extends Component {
         }
 
         return (
-            <div class="timeline-item" id={ this.id }>
+            <div className="timeline-item" id={ this.id }>
                 <span
                     className={circleClass}
                     data-sal="zoom-in"
@@ -92,7 +92,7 @@ class TimelineItem extends Component {
                     {circleContent}   
                 </span>
                 <div
-                    class="timeline-item__content"
+                    className="timeline-item__content"
                     data-sal="fade-in"
                     data-sal-delay="600"
                     data-sal-duration="600"

@@ -7,7 +7,7 @@ import { Timeline } from "../components/Timeline";
 class TimelinePage extends Component {
     render () {
         return (
-            <div>
+            <>
                 <MainLayout>
                     <Navbar />
 
@@ -24,7 +24,7 @@ class TimelinePage extends Component {
                     </div>
                 </MainLayout>
                 <Footer />
-            </div>
+            </>
         );
     }
 }

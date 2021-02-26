@@ -9,9 +9,23 @@ module.exports = {
     plugins: [
         "gatsby-plugin-sass",
         {
-            resolve: "gatsby-plugin-scroll-reveal",
+            resolve: "gatsby-plugin-scroll-reveal"
+        },
+        {
+            resolve: "gatsby-source-filesystem",
             options: {
-                threshold: 1,
+                name: "notebooks",
+                path: `${__dirname}/src/data/posts/notebooks`,
+                ignore: ["**/.ipynb_checkpoints"],
+            },
+        },
+        {
+            resolve: "@rafaelquintanilha/gatsby-transformer-ipynb",
+            options: {
+                notebookProps: {
+                    displayOrder: ["image/png", "text/html", "text/plain"],
+                    showPrompt: false,
+                },
             },
         },
     ],
