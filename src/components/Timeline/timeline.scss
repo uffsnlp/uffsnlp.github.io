@@ -183,16 +183,6 @@ $timeline-item-spacer: 13rem;
     animation-play-state: paused;
 }
 
-@keyframes line-fill {
-    100% {
-        stroke-dashoffset: 0;
-    }
-
-    // 100% {
-    //     stroke: url(#fill-left-to-right)
-    // }
-}
-
 @keyframes blink-fill {
     0% {
         fill: $light-orange;

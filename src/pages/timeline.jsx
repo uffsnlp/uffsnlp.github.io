@@ -13,7 +13,7 @@ class TimelinePage extends Component {
 
                     <div className="p-5"></div>
 
-                    <h1>Cronograma do Grupo de Estudos</h1>
+                    <h1 className="title">Cronograma do Grupo de Estudos</h1>
 
                     <div className="p-4"></div>
 

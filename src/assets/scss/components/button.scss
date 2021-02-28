@@ -1,0 +1,63 @@
+/**
+ * Copyright © 2021 UFFSNLP Members
+ */
+
+@import "../variables";
+@import "../functions";
+
+/**
+ * Removes standard styles from tags.
+ */
+button.btn {
+    outline: none;
+    border: 0;
+}
+
+a.btn {
+    text-decoration: none;
+    // color: black;
+
+    &:hover, &:visited {
+        text-decoration: none;
+    }
+}
+
+/**
+ * Styles .btn
+ */
+.btn {
+    padding: .5rem 2rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 200; 
+    color: $grey;
+    cursor: pointer;
+    transition: all .2s ease;
+    box-shadow: $shadow-md;
+    border-radius: 4px;
+
+    &__icon {
+        margin-left: .5rem;
+        transition: all .2s ease;
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
+}
+
+@each $color, $value in $colors {
+    .btn--#{$color} {
+        background-color: $value;
+
+        &:hover {
+            background-color: lighten($value, 5%);
+
+            .btn__icon {
+                transform: translate(5px, 0);
+            }
+        }
+
+        &.btn--gradient {
+            background-image: linear-gradient(45deg, gradient($color));
+        }
+    }
+}

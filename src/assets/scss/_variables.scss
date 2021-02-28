@@ -7,6 +7,19 @@ $grey: #eee;
 $dark-grey: #2f2e41;
 $blue-grey: #1a1d33;
 
+$colors: (
+    "orange": $orange,
+    "red": $red,
+    "dark": $dark-grey,
+);
+
+/* Gradients */
+$gradient-colors: (
+    "orange": ($orange, $yellow),
+    "red": ($red, $orange),
+    "dark": ($dark-grey, lighten($dark-grey, 5%)),
+);
+
 /* SHADOWS */
 $shadow-sm: 0 2px 2px 0 rgba(0, 0, 0, 14%),
     0 3px 1px -2px rgba(0, 0, 0, 12%), 

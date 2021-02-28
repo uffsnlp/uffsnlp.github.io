@@ -7,7 +7,11 @@
     display: flex;
     align-items: center;
     padding: 1rem;
-    z-index: -2;
+
+    &__content {
+        display: flex;
+        align-items: center;
+    }
 
     &__image {
         position: relative;
@@ -16,12 +20,15 @@
     }
 
     &__title {
-        font-weight: bolder;
+        font-weight: 1000;
         font-size: 2.5rem;
-        background: linear-gradient(135deg, $red, $orange);
+        text-transform: uppercase;
+        color: transparent;
+        background-image: linear-gradient(145deg, $red, lighten($orange, 5%));
+        background-size: 400%;
         -webkit-background-clip: text;
         background-clip: text;
-        -webkit-text-fill-color: transparent;
+        animation: moving-title-gradient 20s infinite alternate;
     }
 
     &__subtitle {
@@ -29,4 +36,20 @@
         color: darken($color: $orange-grey, $amount: 30%);
         padding: 1rem;
     }
+
+    &__children {
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@keyframes moving-title-gradient {
+	0% {
+		background-position: left
+	}
+
+	100% {
+		background-position: right;
+	}
 }

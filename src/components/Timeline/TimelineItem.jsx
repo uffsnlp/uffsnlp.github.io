@@ -104,8 +104,8 @@ class TimelineItem extends Component {
                 </div>
 
                 <Observer
-                    onChange={ this.handleChange }
-                    threshold={ 1 }
+                    onChange={this.handleChange}
+                    threshold={1}
                 >
                     <svg
                         width="348"
