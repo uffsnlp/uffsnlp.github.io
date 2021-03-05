@@ -26,6 +26,7 @@ export default class JoinPage extends Component {
                                 href="https://forms.gle/MVkbTCwdMbRjeDb36"
                                 className="btn btn--orange"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 Participar
                                 <FontAwesomeIcon

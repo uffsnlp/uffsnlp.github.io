@@ -29,7 +29,7 @@ class Header extends Component {
                                 {this.props.subtitle}
                             </h3>
 
-                            <div className="header__children">
+                            <div className="header__children mt-4">
                                 {children}
                             </div>
                         </div>
