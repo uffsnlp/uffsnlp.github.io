@@ -2,7 +2,7 @@
 
 .about {
     font-weight: 300;
-    line-height: 1.5em;
+    line-height: 1.5rem;
 
     &__img {
         width: 50%;
@@ -13,31 +13,5 @@
     &__img-container {
         display: flex;
         justify-content: center;
-    }
-
-    * {
-        z-index: -1 !important;
-    }
-}
-
-.title {
-    padding: 1rem;
-    font-weight: 300;
-    text-align: center;
-}
-
-.subjects, .methods, .goals {
-    list-style-type: upper-roman;
-    margin-left: 3rem;
-    margin-bottom: 1rem;
-}
-
-.kaggle {
-    color: #222;
-    text-decoration-style: dotted;
-    
-    &:hover {
-        background: lighten($color: $red, $amount: 50%);
-        transition: all 0.35s ease-out;
     }
 }

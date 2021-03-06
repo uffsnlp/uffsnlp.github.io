@@ -4,7 +4,7 @@
 $circle-size: 4rem;
 $ruler-width: 4px;
 $light-orange: #e9c5c5;
-$timeline-item-spacer: 9rem;
+$timeline-item-spacer: 13rem;
 
 /* Timeline container */
 .timeline {
@@ -181,16 +181,6 @@ $timeline-item-spacer: 9rem;
 #ellipse5 {
     animation: blink-stroke .5s .75s forwards ease;
     animation-play-state: paused;
-}
-
-@keyframes line-fill {
-    100% {
-        stroke-dashoffset: 0;
-    }
-
-    // 100% {
-    //     stroke: url(#fill-left-to-right)
-    // }
 }
 
 @keyframes blink-fill {

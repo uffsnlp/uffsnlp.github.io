@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./footer.scss";
-import Email from "../../assets/images/mail.svg";
-import Telegram from "../../assets/images/telegram.svg";
+import Email from "../../assets/icons/mail.svg";
+import Telegram from "../../assets/icons/telegram.svg";
 
 class Footer extends Component {
     render () {

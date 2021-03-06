@@ -63,7 +63,7 @@ class About extends Component {
                                 data-sal-duration="400"
                                 data-sal-delay="200"
                             >
-                                <ul className="goals">
+                                <ul className="roman-list">
                                     <li>
                                         Compreensão dos conceitos, ferramentas e tecnologias
                                         estado-da-arte
@@ -109,13 +109,13 @@ class About extends Component {
                                 data-sal-duration="400"
                                 data-sal-delay="200"
                             >
-                                <ul className="methods">
+                                <ul className="roman-list">
                                     <li>
                                         Abordagem teórica dos assuntos e técnicas estudadas
                                     </li>
                                     <li>
                                         Atividades práticas como <i> coding dojos</i> e problemas
-                                        do <a href="https://kaggle.com" className="kaggle"
+                                        do <a href="https://kaggle.com" className="link"
                                             target="_blank" rel="noopener noreferrer">Kaggle</a>
                                     </li>
                                     <li>
@@ -142,7 +142,7 @@ class About extends Component {
                                 data-sal-duration="400"
                                 data-sal-delay="200"
                             >
-                                <ul className="subjects">
+                                <ul className="roman-list">
                                     <li>
                                         Processamento de Linguagem Natural
                                     </li>

@@ -8,9 +8,8 @@ module.exports = {
     /* Your site config here */
     plugins: [
         "gatsby-plugin-sass",
-        {
-            resolve: "gatsby-plugin-scroll-reveal"
-        },
+        "gatsby-plugin-scroll-reveal",
+        "gatsby-plugin-fontawesome-css",
         {
             resolve: "gatsby-source-filesystem",
             options: {

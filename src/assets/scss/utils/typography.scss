@@ -1,0 +1,47 @@
+/**
+ * Sets up styles for texts in general.
+ * That includes links, lists...
+ * 
+ * Copyright © 2021 UFFSNLP
+ */
+
+@import "../variables";
+
+
+/**
+ * General text styles.
+ */
+.title {
+    padding: 1rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+/**  
+ * List styles.
+ */
+.roman-list {
+    list-style-type: upper-roman;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+/**  
+ * Link styles.
+ */
+ .link {
+    text-decoration: none;
+    cursor: pointer;
+    
+    color: $red;
+    font-weight: 400;
+
+    padding-bottom: .1rem;
+    border-bottom: 2px dotted $red;
+    transition: all 0.2s ease-out;
+    
+    &:hover {
+        background: $red;
+        color: white;
+    }
+}
