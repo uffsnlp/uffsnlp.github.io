@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 
 class Navbar extends Component {
     render () {
-        let home = "/", blog = "/blog", bibliography = "/bibliograhpy";
+        let home = "/", blog = "/blog", study = "/study";
         let join = "/join", timeline = "/timeline";
 
         return (
@@ -18,8 +18,8 @@ class Navbar extends Component {
                 <div to="#" className="nav-item dropdown">
                     O grupo
                     <div className="dropdown-content">
-                        <Link to={ bibliography } className="dropdown-item"> 
-                            Bibliografia
+                        <Link to={ study } className="dropdown-item"> 
+                            Material de Estudo
                         </Link>
 
                         <Link to={ timeline } className="dropdown-item"> 

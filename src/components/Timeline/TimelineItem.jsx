@@ -82,7 +82,7 @@ class TimelineItem extends Component {
         }
 
         return (
-            <div className="timeline-item" id={ this.id }>
+            <div className="timeline-item" id={this.id}>
                 <span
                     className={circleClass}
                     data-sal="zoom-in"
@@ -98,8 +98,8 @@ class TimelineItem extends Component {
                     data-sal-duration="600"
                 >
                     <Card
-                        title={ title }
-                        content={ description }
+                        title={title}
+                        content={description}
                     />
                 </div>
 
@@ -113,12 +113,10 @@ class TimelineItem extends Component {
                         viewBox="0 0 348 148"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        // className="svg-animation--paused"
-                        // data-sal="fade-in"
                     >
                         <defs>
-                            <linearGradient id={ `fill-${this.id}` }>
-                                <stop offset="0" stop-color="#f23827">
+                            <linearGradient id={`fill-${this.id}`}>
+                                <stop offset="0" stopColor="#f23827">
                                     <animate
                                         dur="1s"
                                         attributeName="offset"
@@ -129,7 +127,7 @@ class TimelineItem extends Component {
                                     />
                                 </stop>
 
-                                <stop offset="0" stop-color="#e9c5c5">
+                                <stop offset="0" stopColor="#e9c5c5">
                                     <animate
                                         dur="1s"
                                         attributeName="offset"
@@ -181,7 +179,7 @@ class TimelineItem extends Component {
                                     214.5
                                     104H301"
                                 stroke="#e9c5c5"
-                                stroke-width="4"
+                                strokeWidth="4"
                             />
                             <circle
                                 id="ellipse1"
@@ -190,7 +188,7 @@ class TimelineItem extends Component {
                                 r="7.5"
                                 fill="#fff"
                                 stroke="#fff"
-                                stroke-width="4"
+                                strokeWidth="4"
                             />
                             <circle
                                 id="ellipse2"
@@ -198,7 +196,7 @@ class TimelineItem extends Component {
                                 cy="10"
                                 r="7.5"
                                 stroke="#fff"
-                                stroke-width="4"
+                                strokeWidth="4"
                             />
                             <circle
                                 id="ellipse3"
@@ -207,7 +205,7 @@ class TimelineItem extends Component {
                                 r="7.5"
                                 fill="#fff"
                                 stroke="#fff"
-                                stroke-width="4"
+                                strokeWidth="4"
                             />
                             <circle
                                 id="ellipse4"
@@ -215,7 +213,7 @@ class TimelineItem extends Component {
                                 cy="104"
                                 r="7.5"
                                 stroke="#fff"
-                                stroke-width="4"
+                                strokeWidth="4"
                             />
                             <circle
                                 id="ellipse5"
@@ -223,7 +221,7 @@ class TimelineItem extends Component {
                                 cy="138.5"
                                 r="7.5"
                                 stroke="#fff"
-                                stroke-width="4"
+                                strokeWidth="4"
                             />
                         </g>
                     </svg>

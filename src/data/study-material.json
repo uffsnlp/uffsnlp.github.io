@@ -1,0 +1,32 @@
+{
+    "books": [
+        {
+            "title": "Deep Learning",
+            "description": "Livro que trata diversos aspectos de Deep Learning"
+        },
+
+        {
+            "title": "Deep Learning",
+            "description": "Livro que trata diversos aspectos de Deep Learning"
+        },
+
+        {
+            "title": "Deep Learning",
+            "description": "Livro que trata diversos aspectos de Deep Learning"
+        },
+
+        {
+            "title": "Deep Learning",
+            "description": "Livro que trata diversos aspectos de Deep Learning"
+        },
+
+        {
+            "title": "Deep Learning",
+            "description": "Livro que trata diversos aspectos de Deep Learning"
+        }
+    ],
+
+    "papers": [
+
+    ]
+}

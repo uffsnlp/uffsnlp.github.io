@@ -7,13 +7,13 @@ class Timeline extends Component {
     render () {
         return (
             <div className="timeline">
-                { TimelineData.map((data) => {
+                {TimelineData.map((data) => {
                     return <TimelineItem
-                        title={ data.title }
-                        description={ data.description }
-                        date={ data.date }
+                        title={data.title}
+                        description={data.description}
+                        date={data.date}
                     ></TimelineItem>
-                }) }
+                })}
             </div>
         );
     }
